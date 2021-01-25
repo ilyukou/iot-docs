@@ -13,12 +13,12 @@ If currentState not equals state in server - return state from server, else wait
 ##### Response when currentState not equals state in server
 Body | Description
 ------------ | -------------
-[HttpMessageWrapper < SensorState >](https://github.com/ilyukou/iot-docs/dto/SensorHttpMessageWrapper) | T body [SensorState](https://github.com/ilyukou/iot-docs/dto/SensorState), HttpMessageWrapper#status - 'ok', HttpMessageWrapper#message - "ok"
+[HttpMessageWrapper < SensorState >](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorHttpMessageWrapper.md) | T body [SensorState](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorState.md), HttpMessageWrapper#status - 'ok', HttpMessageWrapper#message - "ok"
 
 ##### Response when currentState not equals state in server
 Body | Description
 ------------ | -------------
-[HttpMessageWrapper < empty >](https://github.com/ilyukou/iot-docs/dto/SensorHttpMessageWrapper) | T body - empty, HttpMessageWrapper#status - 'info', HttpMessageWrapper#message - "Time Out."
+[HttpMessageWrapper < empty >](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorHttpMessageWrapper.md) | T body - empty, HttpMessageWrapper#status - 'info', HttpMessageWrapper#message - "Time Out."
 
 ##### Response Code
 Code | Description

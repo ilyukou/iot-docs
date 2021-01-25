@@ -11,7 +11,7 @@ GET |- | query | String query - text query | - | - | - | -
 ##### Response
 Body | Description
 ------------ | -------------
-[1,2,3] | List of [Project](https://github.com/ilyukou/iot-docs/dto/Project) id
+[1,2,3] | List of [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md) id
 
 ##### Response Code
 Code | Description

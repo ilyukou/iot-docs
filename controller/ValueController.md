@@ -6,7 +6,7 @@ ___
 ##### Request /value/{token}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-POST | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/dto/Sensor) | - | [Value](https://github.com/ilyukou/iot-docs/dto/Value) | [Value#time](https://github.com/ilyukou/iot-docs/dto/Value) is optional field. If not present - server time is set when the request came | -
+POST | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | [Value#time](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) is optional field. If not present - server time is set when the request came | -
 
 
 ##### Response
@@ -27,13 +27,13 @@ ___
 ##### Request /value/{token}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/dto/Sensor) | - | [Value](https://github.com/ilyukou/iot-docs/dto/Value) | - | -
+GET | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | - | -
 
 
 ##### Response
 Body | Description
 ------------ | -------------
-[Value](https://github.com/ilyukou/iot-docs/dto/Value) | -
+[Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | -
 
 ##### Response Code
 Code | Description
@@ -48,13 +48,13 @@ ___
 ##### Request /value/period/{token}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | - | token, from, to | String token - [sensor#token](https://github.com/ilyukou/iot-docs/dto/Sensor), from - start of time period, to - end of time period | - | - | - | -
+GET | - | token, from, to | String token - [sensor#token](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md), from - start of time period, to - end of time period | - | - | - | -
 
 
 ##### Response
 Body | Description
 ------------ | -------------
-Array of [Value](https://github.com/ilyukou/iot-docs/dto/Value) | -
+Array of [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | -
 
 ##### Response Code
 Code | Description
@@ -69,13 +69,13 @@ ___
 ##### Request /value/all/{token}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/dto/Sensor) | - | - | - | -
+GET | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | - | - | -
 
 
 ##### Response
 Body | Description
 ------------ | -------------
-Array of [Value](https://github.com/ilyukou/iot-docs/dto/Value) | -
+Array of [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | -
 
 ##### Response Code
 Code | Description

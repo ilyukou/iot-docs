@@ -2,24 +2,24 @@
 API documentation for the project "Educational software and hardware complex 'Internet of Things'"
 
 ___
-### List of API Controller
-* [AuthController](https://github.com/ilyukou/iot-docs/controller/AuthController)
-* [ProjectController](https://github.com/ilyukou/iot-docs/controller/ProjectController)
-* [SearchController](https://github.com/ilyukou/iot-docs/controller/SearchController)
-* [SensorController](https://github.com/ilyukou/iot-docs/controller/SensorController)
-* [SensorStateController](https://github.com/ilyukou/iot-docs/controller/SensorStateController)
-* [UserController](https://github.com/ilyukou/iot-docs/controller/UserController)
-* [ValueController](https://github.com/ilyukou/iot-docs/controller/ValueController)
+### List of API Controllers
+* [AuthController](https://github.com/ilyukou/iot-docs/tree/main/controller/AuthController.md)
+* [ProjectController](https://github.com/ilyukou/iot-docs/tree/main/controller/ProjectController.md)
+* [SearchController](https://github.com/ilyukou/iot-docs/tree/main/controller/SearchController.md)
+* [SensorController](https://github.com/ilyukou/iot-docs/tree/main/controller/SensorController.md)
+* [SensorStateController](https://github.com/ilyukou/iot-docs/tree/main/controller/SensorStateController.md)
+* [UserController](https://github.com/ilyukou/iot-docs/tree/main/controller/UserController.md)
+* [ValueController](https://github.com/ilyukou/iot-docs/tree/main/controller/ValueController.md)
 
-### List of API Entity
-* [AuthenticationRequest](https://github.com/ilyukou/iot-docs/dto/AuthenticationRequest)
-* [AuthenticationUser](https://github.com/ilyukou/iot-docs/dto/AuthenticationUser)
-* [HttpMessageEnum](https://github.com/ilyukou/iot-docs/dto/HttpMessageEnum)
-* [HttpMessageWrapper](https://github.com/ilyukou/iot-docs/dto/HttpMessageWrapper)
-* [Project](https://github.com/ilyukou/iot-docs/dto/Project)
-* [RegistrationRequest](https://github.com/ilyukou/iot-docs/dto/RegistrationRequest)
-* [RegistrationResponse](https://github.com/ilyukou/iot-docs/dto/RegistrationResponse)
-* [Sensor](https://github.com/ilyukou/iot-docs/dto/Sensor)
-* [SensorState](https://github.com/ilyukou/iot-docs/dto/SensorState)
-* [User](https://github.com/ilyukou/iot-docs/dto/User)
-* [Value](https://github.com/ilyukou/iot-docs/dto/Value)
+### List of API Entities
+* [AuthenticationRequest](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationRequest.md)
+* [AuthenticationUser](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md)
+* [HttpMessageEnum](https://github.com/ilyukou/iot-docs/tree/main/dto/HttpMessageEnum.md)
+* [HttpMessageWrapper](https://github.com/ilyukou/tree/main/iot-docs/dto/HttpMessageWrapper.md)
+* [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md)
+* [RegistrationRequest](https://github.com/ilyukou/tree/main/iot-docs/dto/RegistrationRequest.md)
+* [RegistrationResponse](https://github.com/ilyukou/tree/main/iot-docs/dto/RegistrationResponse.md)
+* [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md)
+* [SensorState](https://github.com/ilyukou/tree/main/iot-docs/dto/SensorState.md)
+* [User](https://github.com/ilyukou/iot-docs/tree/main/dto/User.md)
+* [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md)

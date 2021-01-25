@@ -6,7 +6,7 @@ ___
 ##### Request /sensor
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-POST | [User authorization token](https://github.com/ilyukou/iot-docs/dto/AuthenticationUser) |- | - | - | [Sensor](https://github.com/ilyukou/iot-docs/dto/Sensor) | - | -
+POST | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) |- | - | - | [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | -
 
 ##### Response
 Body | Description
@@ -27,7 +27,7 @@ ___
 ##### Request /sensor/{id}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-PUT | [User authorization token](https://github.com/ilyukou/iot-docs/dto/AuthenticationUser) | id | ID of sensor | - | [Sensor](https://github.com/ilyukou/iot-docs/dto/Sensor) | - | -
+PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of sensor | - | [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | -
 
 ##### Response
 Body | Description
@@ -49,12 +49,12 @@ ___
 ##### Request /sensor/{id}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | [User authorization token](https://github.com/ilyukou/iot-docs/dto/AuthenticationUser) | id | ID of sensor | - | - | - | -
+GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of sensor | - | - | - | -
 
 ##### Response
 Body | Description
 ------------ | -------------
-[Sensor](https://github.com/ilyukou/iot-docs/dto/Sensor) | -
+[Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | -
 
 ##### Response Code
 Code | Description
@@ -71,7 +71,7 @@ ___
 ##### Request /sensor/{id}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | [User authorization token](https://github.com/ilyukou/iot-docs/dto/AuthenticationUser) | id | ID of sensor | - | - | - | -
+GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of sensor | - | - | - | -
 
 ##### Response
 Body | Description

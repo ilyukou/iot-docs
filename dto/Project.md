@@ -5,7 +5,7 @@ id | Long | Project id
 sensors | Long array | Sensors ids.
 name | Long array | Project name.
 title | Long array | Project title.
-owner | Long | Id of [owner](https://github.com/ilyukou/iot-docs/dto/User)
+owner | Long | Id of [owner](https://github.com/ilyukou/iot-docs/tree/main/dto/User)
 
 ```json
 {
