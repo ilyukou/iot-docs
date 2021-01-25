@@ -1,4 +1,4 @@
-# iot-docs
+ # iot-docs
 API documentation for the project "Educational software and hardware complex 'Internet of Things'"
 
 ___
@@ -15,11 +15,11 @@ ___
 * [AuthenticationRequest](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationRequest.md)
 * [AuthenticationUser](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md)
 * [HttpMessageEnum](https://github.com/ilyukou/iot-docs/tree/main/dto/HttpMessageEnum.md)
-* [HttpMessageWrapper](https://github.com/ilyukou/tree/main/iot-docs/dto/HttpMessageWrapper.md)
+* [HttpMessageWrapper](https://github.com/ilyukou/tree/main/iot-docs/tree/main/dto/HttpMessageWrapper.md)
 * [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md)
 * [RegistrationRequest](https://github.com/ilyukou/tree/main/iot-docs/dto/RegistrationRequest.md)
 * [RegistrationResponse](https://github.com/ilyukou/tree/main/iot-docs/dto/RegistrationResponse.md)
 * [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md)
-* [SensorState](https://github.com/ilyukou/tree/main/iot-docs/dto/SensorState.md)
+* [SensorState](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorState.md)
 * [User](https://github.com/ilyukou/iot-docs/tree/main/dto/User.md)
 * [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md)
