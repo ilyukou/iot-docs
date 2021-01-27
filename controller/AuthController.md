@@ -13,6 +13,14 @@ Body | Description
 ------------ | -------------
 [AuthenticationUser](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | -
 
+##### Response Code
+Code | Description
+------------ | -------------
+200 | OK
+400 | Validation error or request body is an invalid JSON or cannot be parsed
+404 | Not found User
+500 | Internal server error occurred.
+
 ___
 ### Sign Up
 ##### Request /auth/signUp
@@ -24,5 +32,12 @@ POST | - | - | - | [RegistrationRequest](https://github.com/ilyukou/iot-docs/tre
 Body | Description
 ------------ | -------------
 [RegistrationResponse](https://github.com/ilyukou/iot-docs/tree/main/dto/RegistrationResponse.md) | -
+
+##### Response Code
+Code | Description
+------------ | -------------
+200 | OK
+400 | Validation error or request body is an invalid JSON or cannot be parsed
+500 | Internal server error occurred.
 
 ___
