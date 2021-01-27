@@ -3,9 +3,9 @@ Filed name | Type | Note
 ------------ | ------------- | -------------
 id | Long | Project id
 sensors | Long array | Sensors ids.
-name | Long array | Project name.
-title | Long array | Project title.
-owner | Long | Id of [owner](https://github.com/ilyukou/iot-docs/tree/main/dto/User)
+name | String | Project name.
+title | Blob | Project title.
+owner | Long | [User#id](https://github.com/ilyukou/iot-docs/tree/main/dto/User)
 
 ```json
 {

@@ -32,7 +32,7 @@ PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/d
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+ -| -
 
 ##### Response Code
 Code | Description
@@ -42,6 +42,7 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
+405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -64,6 +65,30 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
+405 | Method not allowed
+500 | Internal server error occurred.
+
+___
+### Get sensors
+##### Request /sensor?ids=[1,2,3]
+Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | ids | IDs of sensor | - | - | - | -
+
+##### Response
+Body | Description
+------------ | -------------
+Array of [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | -
+
+##### Response Code
+Code | Description
+------------ | -------------
+200 | OK
+400 | Validation error or request body is an invalid JSON or cannot be parsed
+401 | Unauthorized
+403 | Forbidden. Not access for this operation
+404 | Not found Sensor
+405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -76,7 +101,7 @@ GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/d
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+ -| -
 
 ##### Response Code
 Code | Description
@@ -86,4 +111,5 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
+405 | Method not allowed
 500 | Internal server error occurred.

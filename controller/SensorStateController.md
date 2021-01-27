@@ -37,7 +37,7 @@ PUT | - | state | String state - new state | - | - | - | -
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+-| -
 
 ##### Response Code
 Code | Description

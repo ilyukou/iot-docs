@@ -32,7 +32,7 @@ PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/d
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+ -| -
 
 ##### Response Code
 Code | Description
@@ -42,7 +42,9 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Project
+405 | Method not allowed
 500 | Internal server error occurred.
+
 
 ___
 ### Get project
@@ -64,6 +66,30 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Project
+405 | Method not allowed
+500 | Internal server error occurred.
+
+___
+### Get projects by ids
+##### Request /project?ids=[1,2,3]
+Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | ids | IDs of project | - | - | - | -
+
+##### Response
+Body | Description
+------------ | -------------
+Array of [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md) | -
+
+##### Response Code
+Code | Description
+------------ | -------------
+200 | OK
+400 | Validation error or request body is an invalid JSON or cannot be parsed
+401 | Unauthorized
+403 | Forbidden. Not access for this operation
+404 | Not found Project
+405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -76,7 +102,7 @@ GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/d
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+ -| -
 
 ##### Response Code
 Code | Description
@@ -86,24 +112,5 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Project
-500 | Internal server error occurred.
-
-___
-### Get all projects
-##### Request /project/all
-Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of project | - | - | - | -
-
-##### Response
-Body | Description
------------- | -------------
-[1,2,3] | Array of [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md) id
-
-##### Response Code
-Code | Description
------------- | -------------
-200 | OK
-400 | Validation error or request body is an invalid JSON or cannot be parsed
-401 | Unauthorized
+405 | Method not allowed
 500 | Internal server error occurred.

@@ -12,7 +12,7 @@ POST | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+-| -
 
 ##### Response Code
 Code | Description
@@ -54,28 +54,7 @@ GET | - | token, from, to | String token - [sensor#token](https://github.com/ily
 ##### Response
 Body | Description
 ------------ | -------------
-Array of [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | -
-
-##### Response Code
-Code | Description
------------- | -------------
-200 | OK
-400 | Validation error or request body is an invalid JSON or cannot be parsed
-404 | Not found Sensor with such token
-500 | Internal server error occurred.
-
-___
-### Get all value
-##### Request /value/all/{token}
-Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | - | token | String token - [sensor#token](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | - | - | -
-
-
-##### Response
-Body | Description
------------- | -------------
-Array of [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | -
+Array of [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md) | Array size no more than 500
 
 ##### Response Code
 Code | Description

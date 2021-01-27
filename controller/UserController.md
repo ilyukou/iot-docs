@@ -11,7 +11,7 @@ GET | - | token | String token - user token from email to confirm account | - | 
 ##### Response
 Body | Description
 ------------ | -------------
-- | -
+ -| -
 
 ##### Response Code
 Code | Description

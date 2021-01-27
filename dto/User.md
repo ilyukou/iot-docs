@@ -2,8 +2,8 @@
 Filed name | Type | Note
 ------------ | ------------- | -------------
 id | Long | Sensor id
-username | String | -
-projects | Long array | Proect ids
+username | String | [User#username](https://github.com/ilyukou/iot-docs/tree/main/dto/User.md)
+projects | Long array | Array of [Project#id](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md)
 
 ```json
 {
