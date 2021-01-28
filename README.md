@@ -26,3 +26,5 @@ ___
 * [User](https://github.com/ilyukou/iot-docs/tree/main/dto/User.md)
 * [Value](https://github.com/ilyukou/iot-docs/tree/main/dto/Value.md)
 * [Validation](https://github.com/ilyukou/iot-docs/tree/main/dto/Validation.md)
+* [ProjectForm](https://github.com/ilyukou/iot-docs/tree/main/dto/ProjectForm.md)
+* [SensorForm](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorForm.md)

@@ -6,7 +6,7 @@ ___
 ##### Request /project
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-POST | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) |- | - | - | [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md) | - | -
+POST | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) |- | - | - | [ProjectForm](https://github.com/ilyukou/iot-docs/tree/main/dto/ProjectForm.md) | - | -
 
 ##### Response
 Body | Description
@@ -27,7 +27,7 @@ ___
 ##### Request /project/{id}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of project | - | [Project](https://github.com/ilyukou/iot-docs/tree/main/dto/Project.md) | - | -
+PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of project | - | [ProjectForm](https://github.com/ilyukou/iot-docs/tree/main/dto/ProjectForm.md) | - | -
 
 ##### Response
 Body | Description

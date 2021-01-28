@@ -6,7 +6,7 @@ ___
 ##### Request /sensor
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-POST | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) |- | - | - | [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | -
+POST | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) |- | - | - | [SensorForm](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorForm.md) | - | -
 
 ##### Response
 Body | Description
@@ -27,7 +27,7 @@ ___
 ##### Request /sensor/{id}
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of sensor | - | [Sensor](https://github.com/ilyukou/iot-docs/tree/main/dto/Sensor.md) | - | -
+PUT | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | id | ID of sensor | - | [SensorForm](https://github.com/ilyukou/iot-docs/tree/main/dto/SensorForm.md) | - | -
 
 ##### Response
 Body | Description
