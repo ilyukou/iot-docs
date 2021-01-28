@@ -68,11 +68,11 @@ Code | Description
 500 | Internal server error occurred.
 
 ___
-### Get projects page
-##### Request /project/page
+### Get project page
+##### Request /project/page?count=1&username=String
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | count, username | int count, String username | username is OPTIONAL filed. If not present return your repositories. If present return {username} repositories | - | - | -
+GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | count, username | int count, String username | username is OPTIONAL field. If not present return your repositories. If present return {username} repositories | - | - | -
 
 ##### Response
 Body | Description
