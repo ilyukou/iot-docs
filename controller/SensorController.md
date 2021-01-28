@@ -42,7 +42,6 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
-405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -65,7 +64,6 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
-405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -88,7 +86,6 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
-405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -111,5 +108,4 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Sensor
-405 | Method not allowed
 500 | Internal server error occurred.

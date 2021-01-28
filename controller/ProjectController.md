@@ -42,7 +42,6 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Project
-405 | Method not allowed
 500 | Internal server error occurred.
 
 
@@ -66,15 +65,14 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Project
-405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
-### Get projects by ids
-##### Request /project?ids=[1,2,3]
+### Get projects page
+##### Request /project/page
 Method | Header | Parameter | Description | Restriction | Body | Description | Restriction
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | ids | IDs of project | - | - | - | -
+GET | [User authorization token](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationUser.md) | count, username | int count, String username | username is OPTIONAL filed. If not present return your repositories. If present return {username} repositories | - | - | -
 
 ##### Response
 Body | Description
@@ -87,9 +85,6 @@ Code | Description
 200 | OK
 400 | Validation error or request body is an invalid JSON or cannot be parsed
 401 | Unauthorized
-403 | Forbidden. Not access for this operation
-404 | Not found Project
-405 | Method not allowed
 500 | Internal server error occurred.
 
 ___
@@ -112,5 +107,4 @@ Code | Description
 401 | Unauthorized
 403 | Forbidden. Not access for this operation
 404 | Not found Project
-405 | Method not allowed
 500 | Internal server error occurred.
