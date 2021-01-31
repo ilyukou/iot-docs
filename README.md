@@ -6,7 +6,7 @@ ___
 ### List of API Controllers
 * [AuthController](https://github.com/ilyukou/iot-docs/tree/main/controller/AuthController.md)
 * [ProjectController](https://github.com/ilyukou/iot-docs/tree/main/controller/ProjectController.md)
-* [DeviceController](https://github.com/ilyukou/iot-docs/tree/main/controller/SensorController.md)
+* [DeviceController](https://github.com/ilyukou/iot-docs/tree/main/controller/DeviceController.md)
 
 
 ### List of API Entities
