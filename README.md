@@ -6,12 +6,8 @@ ___
 ### List of API Controllers
 * [AuthController](https://github.com/ilyukou/iot-docs/tree/main/controller/AuthController.md)
 * [ProjectController](https://github.com/ilyukou/iot-docs/tree/main/controller/ProjectController.md)
-* [SearchController](https://github.com/ilyukou/iot-docs/tree/main/controller/SearchController.md)
-* [SensorController](https://github.com/ilyukou/iot-docs/tree/main/controller/SensorController.md)
-* [SensorStateController](https://github.com/ilyukou/iot-docs/tree/main/controller/SensorStateController.md)
-* [UserController](https://github.com/ilyukou/iot-docs/tree/main/controller/UserController.md)
-* [ValueController](https://github.com/ilyukou/iot-docs/tree/main/controller/ValueController.md)
-* [ValidationController](https://github.com/ilyukou/iot-docs/tree/main/controller/ValidationController.md)
+* [DeviceController](https://github.com/ilyukou/iot-docs/tree/main/controller/SensorController.md)
+
 
 ### List of API Entities
 * [AuthenticationRequest](https://github.com/ilyukou/iot-docs/tree/main/dto/AuthenticationRequest.md)
